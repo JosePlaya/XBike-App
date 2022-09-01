@@ -11,20 +11,27 @@ import SwiftUI
 struct MainView: View {
     
     var body: some View {
-        TabView{
-            // Map view
-           MapView()
-                .tabItem {
-                            Label("Current Ride", systemImage: "square")
-                        }
-            
-            // Progress view
-            ProgressView()
-                .tabItem {
-                    Image(systemName: "person.crop.circle.fill")
-                    Text("My Progress")
-                }
+        VStack{
+            TabView {
+                // Map view
+               MapView()
+                    .tabItem {
+                        Label("Current Ride", systemImage: "bicycle")
+                    }
+                
+                // Progress view
+                ProgressView()
+                    .tabItem {
+                        Label("My Progress", systemImage: "person.crop.circle.fill")
+                    }
+            }
         }
-        .tabViewStyle(PageTabViewStyle())
+        .background(Color.white)
+    }
+}
+
+struct MainView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView()
     }
 }

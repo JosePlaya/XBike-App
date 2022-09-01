@@ -20,6 +20,7 @@
 		62AEDF8828C0737D002CBDB1 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEDF8728C0737D002CBDB1 /* Main.swift */; };
 		62AEDF8A28C073E7002CBDB1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEDF8928C073E7002CBDB1 /* MapView.swift */; };
 		62AEDF8C28C073F2002CBDB1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEDF8B28C073F2002CBDB1 /* ProgressView.swift */; };
+		62AEDF9028C07AB0002CBDB1 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEDF8F28C07AB0002CBDB1 /* Ride.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		62AEDF8728C0737D002CBDB1 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		62AEDF8928C073E7002CBDB1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		62AEDF8B28C073F2002CBDB1 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		62AEDF8F28C07AB0002CBDB1 /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,8 @@
 		62AEDF5428BFA744002CBDB1 /* XBike-App */ = {
 			isa = PBXGroup;
 			children = (
+				62AEDF8E28C07A9E002CBDB1 /* Controllers */,
+				62AEDF8D28C07A90002CBDB1 /* Models */,
 				62AEDF8428C06DC6002CBDB1 /* Views */,
 				62AEDF5528BFA744002CBDB1 /* XBike_AppApp.swift */,
 				62AEDF5728BFA744002CBDB1 /* ContentView.swift */,
@@ -151,6 +155,21 @@
 				62AEDF8B28C073F2002CBDB1 /* ProgressView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		62AEDF8D28C07A90002CBDB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62AEDF8F28C07AB0002CBDB1 /* Ride.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		62AEDF8E28C07A9E002CBDB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +307,7 @@
 				62AEDF5F28BFA748002CBDB1 /* Persistence.swift in Sources */,
 				62AEDF6228BFA748002CBDB1 /* XBike_App.xcdatamodeld in Sources */,
 				62AEDF5828BFA744002CBDB1 /* ContentView.swift in Sources */,
+				62AEDF9028C07AB0002CBDB1 /* Ride.swift in Sources */,
 				62AEDF8C28C073F2002CBDB1 /* ProgressView.swift in Sources */,
 				62AEDF5628BFA744002CBDB1 /* XBike_AppApp.swift in Sources */,
 				62AEDF8628C06DDA002CBDB1 /* OnBoarding.swift in Sources */,
