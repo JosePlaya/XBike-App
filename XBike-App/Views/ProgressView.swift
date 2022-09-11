@@ -14,9 +14,10 @@ struct ProgressView: View {
         VStack{
             HStack(alignment: .center){
                 Text("My Progress")
-                    .bold()
                     .foregroundColor(Color.white)
-            }
+                    .font(.system(size: 24))
+                    .padding()
+            }.frame(height: 50)
             
             List{
                 RideView()

@@ -12,8 +12,35 @@ struct MapView: View {
     
     var body: some View {
         VStack{
-            Text("Map")
+            ZStack{
+                HStack(alignment: .center){
+                    Text("Current Ride")
+                        .foregroundColor(Color.white)
+                        .font(.system(size: 24))
+                }
+                
+                HStack(alignment: .lastTextBaseline){
+                    Spacer()
+                    Button(action: {
+                        
+                    }, label: {
+                        Image(systemName: "plus")
+                            .foregroundColor(Color.white)
+                            .font(.system(size: 24))
+                            .padding()
+                    })
+                }
+            }.frame(height: 50)
+            
+            List{
+                RideView()
+                
+                RideView()
+                
+                RideView()
+            }
         }
+        .background(Color.orange)
     }
 }
 
