@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21ACBB1BCBD306B361403EEC /* libPods-XBike-App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F637E15E2CF42E8F041CBAC2 /* libPods-XBike-App.a */; };
+		6218CEC828CEE4E70051FCD6 /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218CEC728CEE4E70051FCD6 /* GoogleMapsView.swift */; };
+		6218CECA28CEF90F0051FCD6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218CEC928CEF90F0051FCD6 /* LocationManager.swift */; };
+		6218CECC28CF017E0051FCD6 /* Dialogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218CECB28CF017E0051FCD6 /* Dialogs.swift */; };
+		6218CECE28D035C00051FCD6 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218CECD28D035C00051FCD6 /* TimerView.swift */; };
+		6218CED028D0CDB50051FCD6 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218CECF28D0CDB50051FCD6 /* TimerController.swift */; };
 		62AEDF5628BFA744002CBDB1 /* XBike_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEDF5528BFA744002CBDB1 /* XBike_AppApp.swift */; };
 		62AEDF5828BFA744002CBDB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEDF5728BFA744002CBDB1 /* ContentView.swift */; };
 		62AEDF5A28BFA748002CBDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AEDF5928BFA748002CBDB1 /* Assets.xcassets */; };
@@ -41,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55C87F4B7DAAC4A9885FB44E /* Pods-XBike-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBike-App.release.xcconfig"; path = "Target Support Files/Pods-XBike-App/Pods-XBike-App.release.xcconfig"; sourceTree = "<group>"; };
+		6218CEC728CEE4E70051FCD6 /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		6218CEC928CEF90F0051FCD6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6218CECB28CF017E0051FCD6 /* Dialogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialogs.swift; sourceTree = "<group>"; };
+		6218CECD28D035C00051FCD6 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		6218CECF28D0CDB50051FCD6 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 		62AEDF5228BFA744002CBDB1 /* XBike-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XBike-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AEDF5528BFA744002CBDB1 /* XBike_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBike_AppApp.swift; sourceTree = "<group>"; };
 		62AEDF5728BFA744002CBDB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +70,8 @@
 		62AEDF8928C073E7002CBDB1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		62AEDF8B28C073F2002CBDB1 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		62AEDF8F28C07AB0002CBDB1 /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		6C2329366A0CF8FCF42EE2B3 /* Pods-XBike-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBike-App.debug.xcconfig"; path = "Target Support Files/Pods-XBike-App/Pods-XBike-App.debug.xcconfig"; sourceTree = "<group>"; };
+		F637E15E2CF42E8F041CBAC2 /* libPods-XBike-App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XBike-App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21ACBB1BCBD306B361403EEC /* libPods-XBike-App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E81F008D9C7D70318A51DFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C2329366A0CF8FCF42EE2B3 /* Pods-XBike-App.debug.xcconfig */,
+				55C87F4B7DAAC4A9885FB44E /* Pods-XBike-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		545464B97276316D10C7DF56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F637E15E2CF42E8F041CBAC2 /* libPods-XBike-App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		62AEDF4928BFA744002CBDB1 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +124,8 @@
 				62AEDF6A28BFA748002CBDB1 /* XBike-AppTests */,
 				62AEDF7428BFA748002CBDB1 /* XBike-AppUITests */,
 				62AEDF5328BFA744002CBDB1 /* Products */,
+				1E81F008D9C7D70318A51DFE /* Pods */,
+				545464B97276316D10C7DF56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +187,9 @@
 				62AEDF8528C06DDA002CBDB1 /* OnBoarding.swift */,
 				62AEDF8928C073E7002CBDB1 /* MapView.swift */,
 				62AEDF8B28C073F2002CBDB1 /* ProgressView.swift */,
+				6218CEC728CEE4E70051FCD6 /* GoogleMapsView.swift */,
+				6218CECB28CF017E0051FCD6 /* Dialogs.swift */,
+				6218CECD28D035C00051FCD6 /* TimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +205,8 @@
 		62AEDF8E28C07A9E002CBDB1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6218CECF28D0CDB50051FCD6 /* TimerController.swift */,
+				6218CEC928CEF90F0051FCD6 /* LocationManager.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62AEDF7B28BFA748002CBDB1 /* Build configuration list for PBXNativeTarget "XBike-App" */;
 			buildPhases = (
+				AD76D8D46006C64C69B2466A /* [CP] Check Pods Manifest.lock */,
 				62AEDF4E28BFA744002CBDB1 /* Sources */,
 				62AEDF4F28BFA744002CBDB1 /* Frameworks */,
 				62AEDF5028BFA744002CBDB1 /* Resources */,
+				88B46DF360026C8C2B500D32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +338,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		88B46DF360026C8C2B500D32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XBike-App/Pods-XBike-App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XBike-App/Pods-XBike-App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XBike-App/Pods-XBike-App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD76D8D46006C64C69B2466A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XBike-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62AEDF4E28BFA744002CBDB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -304,11 +387,16 @@
 			files = (
 				62AEDF8A28C073E7002CBDB1 /* MapView.swift in Sources */,
 				62AEDF8828C0737D002CBDB1 /* Main.swift in Sources */,
+				6218CEC828CEE4E70051FCD6 /* GoogleMapsView.swift in Sources */,
+				6218CECA28CEF90F0051FCD6 /* LocationManager.swift in Sources */,
+				6218CECE28D035C00051FCD6 /* TimerView.swift in Sources */,
+				6218CECC28CF017E0051FCD6 /* Dialogs.swift in Sources */,
 				62AEDF5F28BFA748002CBDB1 /* Persistence.swift in Sources */,
 				62AEDF6228BFA748002CBDB1 /* XBike_App.xcdatamodeld in Sources */,
 				62AEDF5828BFA744002CBDB1 /* ContentView.swift in Sources */,
 				62AEDF9028C07AB0002CBDB1 /* Ride.swift in Sources */,
 				62AEDF8C28C073F2002CBDB1 /* ProgressView.swift in Sources */,
+				6218CED028D0CDB50051FCD6 /* TimerController.swift in Sources */,
 				62AEDF5628BFA744002CBDB1 /* XBike_AppApp.swift in Sources */,
 				62AEDF8628C06DDA002CBDB1 /* OnBoarding.swift in Sources */,
 			);
@@ -463,15 +551,18 @@
 		};
 		62AEDF7C28BFA748002CBDB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2329366A0CF8FCF42EE2B3 /* Pods-XBike-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XBike-App/Preview Content\"";
 				DEVELOPMENT_TEAM = LPBA8AZPQN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "XBike location tracking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -484,6 +575,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jose.tomas.larenas.solar.XBike-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,15 +584,18 @@
 		};
 		62AEDF7D28BFA748002CBDB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C87F4B7DAAC4A9885FB44E /* Pods-XBike-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XBike-App/Preview Content\"";
 				DEVELOPMENT_TEAM = LPBA8AZPQN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "XBike location tracking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -513,6 +608,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jose.tomas.larenas.solar.XBike-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -10,6 +10,11 @@ import SwiftUI
 
 struct MainView: View {
     
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor.white
+        
+    }
+    
     var body: some View {
         VStack{
             TabView {
@@ -24,9 +29,8 @@ struct MainView: View {
                     .tabItem {
                         Label("My Progress", systemImage: "person.crop.circle.fill")
                     }
-            }
+            }.accentColor(.orange)
         }
-        .background(Color.white)
     }
 }
 

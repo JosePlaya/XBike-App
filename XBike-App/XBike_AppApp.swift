@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import GoogleMaps
+import GooglePlaces
 
 @main
 struct XBike_AppApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
@@ -16,5 +20,13 @@ struct XBike_AppApp: App {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
+    }
+}
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        GMSServices.provideAPIKey("AIzaSyA9Byie8ZrZQdDVTB72dQCVYPXtmA4k_84")
+        GMSPlacesClient.provideAPIKey("AIzaSyA9Byie8ZrZQdDVTB72dQCVYPXtmA4k_84")
+        return true
     }
 }
