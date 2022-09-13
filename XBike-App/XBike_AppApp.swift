@@ -25,8 +25,8 @@ struct XBike_AppApp: App {
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        GMSServices.provideAPIKey("AIzaSyA9Byie8ZrZQdDVTB72dQCVYPXtmA4k_84")
-        GMSPlacesClient.provideAPIKey("AIzaSyA9Byie8ZrZQdDVTB72dQCVYPXtmA4k_84")
+        GMSServices.provideAPIKey("API-KEY")
+        GMSPlacesClient.provideAPIKey("API-KEY")
         return true
     }
 }
